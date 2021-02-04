@@ -92,7 +92,7 @@
 /*----------------Moto G5 / Galaxy S5----------------*/
 @media (min-device-width: 355px) and (max-device-width: 365px){
     #home{
-        height: 550px;
+        height: 680px;
     }
     .home_image{
         width: 280px;
@@ -118,7 +118,7 @@
 /*----------------Pixel 2 / Pixel 2XL----------------*/
 @media (min-device-width: 410px) and (max-device-width: 415px){
     #home{
-        height: 550px;
+        height: 680px;
     }
     .home_image{
         width: 280px;
@@ -144,7 +144,7 @@
 /*----------------iPhone X----------------*/
 @media (min-device-width: 374px) and (max-device-width: 380px){
     #home{
-        height: 550px;
+        height: 680px;
     }
     .home_image{
         width: 280px;
