@@ -422,7 +422,8 @@
   <script>
     function test() {
       var a = window.screen.width;
-      document.getElementById("test").innerHTML = a;
+      var b = window.screen.height;
+      document.getElementById("test").innerHTML = a + "-" + b;
     }
   </script>
 </html>
