@@ -404,6 +404,9 @@
 
     <a href="https://m.paytm.me/pay_mweb/9324739637" className="btn btn-primary">Paytm</a>
 
+    <button class="btn btn-success" onclick="test()">Click Me</button>
+    <p id="test"></p>
+
     <footer id="footer" class="footer-2">
       <div class="footer-copyright">
         <div class="container">
@@ -416,4 +419,11 @@
       </div>
     </footer>
   </body>
+  <script>
+    function test() {
+      var a = window.screen.width;
+      document.getElementById("test").innerHTML = a;
+    }
+  </script>
 </html>
+
